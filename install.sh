@@ -4,7 +4,7 @@ set -e
 
 
 export SCRIPT_VERSION="main"
-export GITHUB_BASE_URL="https://raw.githubusercontent.com/unknownpersonog/RDPXcript"
+export GITHUB_BASE_URL="https://raw.githubusercontent.com/Atharv-Pathak-14/RDPXcript"
 
 LOG_PATH="/var/log/RDPXcript.log"
 # exit with error status code if user is not root
