@@ -63,7 +63,7 @@ fi
 }
 lxde_install() {
 sudo DEBIAN_FRONTEND=noninteractive \
-    apt-get install --no-install-recommends --assume-yes lxde
+    apt-get install --assume-yes lxde
 sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/startlxde" > /etc/chrome-remote-desktop-session'
 auth
 }
